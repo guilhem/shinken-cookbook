@@ -15,5 +15,5 @@ python_pip 'shinken'
 
 service 'shinken' do
   supports :status => true, :start => true, :stop => true, :restart => true
-  action [ :enable, :start]
+  action [:enable, :start]
 end
