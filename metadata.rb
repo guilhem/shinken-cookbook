@@ -1,0 +1,10 @@
+name 'shinken'
+maintainer 'Barthelemy Vessemont'
+maintainer_email 'bvessemont@gmail.com'
+license 'Apache 2.0'
+description 'Installs/Configures shinken'
+long_description 'Installs/Configures shinken'
+version '0.1.0'
+
+depends 'python'
+depends 'apt'
