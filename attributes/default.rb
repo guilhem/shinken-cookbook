@@ -7,9 +7,5 @@ end
 
 default['shinken']['python_pkgs'] = value_for_platform_family(
   'debian' => ['python-pycurl'],
-  'rhel' => [],
-  'fedora' => [],
-  'freebsd' => [],
-  'smartos' => [],
-  'default' => []
+  ['rhel', 'fedora', 'freebsd', 'smartos', 'default'] => []
 )
